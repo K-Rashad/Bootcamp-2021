@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+a,a:hover{
+  text-decoration: none;
+}
+
+
+.navbar-brand{
+  padding: 37px 0 37px 0;
+}
+
+.text-furniture{
+  text-transform: capitalize;
+  font-size: 46px;
+  color: #224D4F;
+  font-weight: 300;
+}
+
+.text-furniture span{
+  font-weight: bold;
+}
+
+.chair-section{
+  margin-top: 30px;
+}
+
+.chair-section img{
+  float: left;
+  width: 350px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.chair-section a {
+  float: right;
+  padding: 24px 41px;
+  font-size: 21px;
+  background: #224D4F;
+  border-radius: 3px;
+  color: #fff;
+  position: absolute;
+  top: 75%;
+  left: 28%;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card{
+  border-radius: 10px;
+  height: auto;
+  border: 1px solid #70707022;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+  .card {
+    margin-bottom: 10px;
+  }
+  .chair-section a {
+    top: 75%;
+    left: 47%;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .second-row{
+    margin-top: 15px;
+  }
+}
+
+
+.card img {
+  height: 245px;
+  background-size: cover;
+  object-fit: cover;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.card-body{
+  background: #224D4F;
+  opacity: 90%;
+  color: #fff;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  padding: 14px 0 13px 11px;
+
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+
+.btn-back-section{
+  align-items: center;
+  text-align: center;
+  padding: 15px 0;
+  text-decoration: none;
+}
+
+.btn-back{
+  border-radius: 9px;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.second-row-back{
+  text-align: center;
+  margin: 20px 0;
+}
