@@ -62,13 +62,20 @@ a,a:hover{
     margin-bottom: 10px;
   }
   .chair-section a {
-    top: 65%;
-    left: 47%;
+    top: 69%;
+    left: 49%;
+  }
+  .grid-container{
+    height: 600px;
+    overflow-y: scroll;
   }
 }
 
 @media only screen and (min-width: 767px) {
   .second-row{
+    margin-top: 15px;
+  }
+  .margin-top-15{
     margin-top: 15px;
   }
 }
@@ -89,7 +96,6 @@ a,a:hover{
   border-bottom-left-radius: 9px;
   border-bottom-right-radius: 9px;
   padding: 14px 0 13px 11px;
-
   position: absolute;
   width: 100%;
   bottom: 0;
