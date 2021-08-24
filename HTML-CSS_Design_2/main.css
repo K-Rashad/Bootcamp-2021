@@ -13,7 +13,20 @@
         
     padding-right: 0px;
   }
-
+  
+  .ht{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    top: 51px;
+    left: 595px;
+    width: max-content;
+    height: 54px;
+    transform: translate(260%, 50%);
+    margin-bottom: 173px;
+  
+    margin-top: -5px;
+  }
   .top-left {
     margin-top: 100px; 
     
@@ -67,6 +80,7 @@
     padding-left: 20px;
     width: 552px;
     height: 170px;
+    margin-top: 35px;
   }
   .type{
     color: #FFFFFF; 
