@@ -1,0 +1,14 @@
+:root {
+	--primaryColor:  #000000;
+	--bgColor: #F8F8F8;
+	--pinkColor: #FAE4F6;
+	--skyBlue: #EAECFA;
+
+}
+
+
+body {
+	font-family:'Roboto', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+}
