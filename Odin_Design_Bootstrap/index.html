@@ -2,312 +2,377 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://fonts.androidapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Odin</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light" aria-label="Fourth navbar example">
-            <div class="container-fluid">
-                <img src="img/logo.png" alt="logo-image">
-
-
-                <div>
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">How it works</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">FAQ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                        <button class="btn">Order Now</button>
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
-        <div class="firstContent">
-
-            <p class="safety">When <span style="color: #56FEC9;">safety</span> and <span
-                    style="color: #56FEC9; font-size: 67px;">security</span> <span
-                    style="font-size: 67px;">matters</span>
-                <img class="pink-ribbon" src="img/Group 5022.svg" alt="Pink-stuff">
-            </p>
-
-            <p class="para-text1">Lorem Ipsum is simply dummy text of the printing and typesetting industry text ever
-                the 33
-                Alerts.</p>
-            <div class="row">
-                <div class="store" style="padding-left: 0% !important;">
-                    <a href="#">
-                        <div class="android" float-start " alt=" ...">
-                            <img class="img-android" src="img/android.png" alt="Android-playstore">
-                        </div>
-                    </a>
-                </div>
-
-                <div class="store">
-                    <a href="#">
-                        <div class="ios float-start" alt="...">
-                            <img class="img-ios" src="img/ios.png" alt="Ios-app-store">
-                        </div>
-                    </a>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="overlay-rectangle">
-            <img class="overlay-1 float-start" src="img/Group 5028.svg" alt="">
-            <p class="para-text2" style="top: 707px; left: 500px; width: 200px; height: 42px;
-            text-align: left; transform: translate(90%,-40%);">
-                Instantly alert everyone at the school or the district</p>
-            <img class="overlay-2 float-start" src="img/Group 5012.svg" alt="">
-            <p class="para-text2" style="width: 199px;
-            height: 66px; transform: translate(350%,-180%);">
-                Every device connected to the network will display the same message.
-            </p>
-        </div>
-
-    </header>
-
-    <div>
-        <h1 class="three-options justify-content-center">How it Works</h1>
-        <p class="para-text3 justify-content-center" style="color: #797979;">Lorem Ipsum is simply dummy text of the
-            printing and
-            typesetting industry.
-            Lorem Ipsum has <br> been the industry's standard dummy text ever since the call 911.</p>
-    </div>
-
-    <div class="row" style="width: 1027px; margin-left: 400px; margin-top: 50px;">
-        <div
-            style="border-top:dotted #1F1F1F;opacity: 0.15; transform: translateY(80px); height: 0%; width: 765px; margin-left: 100px;">
-        </div>
-        <div class="col-md-4">
-            <div class="card text-center">
-
-                <div class="card-body">
-                    <a href="#"><img class="card-img" src="img/create-account.png" alt="create-account-image"></a>
-                    <h5 class="card-title mt-4">Create Account</h5>
-                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing.</p>
-
-                </div>
-
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card text-center">
-
-                <div class="card-body">
-                    <a href="#"><img class="card-img" src="img/location.png" alt="location image"></a>
-                    <h5 class="card-title mt-4">Set Room & Other Location</h5>
-                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing</p>
-
-                </div>
-
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card text-center">
-
-                <div class="card-body">
-                    <a href="#">
-                        <img class="card-img" src="img/send-alert.png" alt="alert image"> </a>
-                    <h5 class="card-title mt-4 ">Send Alert</h5>
-                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing</p>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-    <div class="red-box">
+    <header class="headSection pb-2 pt-2">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div>
-                        <img class="red-image" src="img/red-mobile.png" alt="mobile-display">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a href="">
+                        <div class="brandLogo">
+                            <img src="img/logo@2x.png" alt="" class="navbar-brand" width="140" height="99" />
+                        </div>
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="
+                  navbar-nav
+                  mb-2 mb-md-0 mb-lg-0
+                  ms-auto
+                  justify-content-end
+                ">
+                            <li class="nav-item">
+                                <a class="nav-link link-light" aria-current="page" href="#top">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" href="#service">How it works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" href="#feature">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" href="#FAQ">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-secondary" href="#contact">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-primary" href="#">Order Now</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-
+            </nav>
+        </div>
+    </header>
+    <section class="topSection headSection" id="top">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="blue-phone">
+                    <img src="img/bg1.svg" alt="Phone-background" class="img-fluid" />
+                </div>
+                <div class="col-md-7">
+                    <div class="topContent">
+                        <h1 class="pt-2">
+                            When
+                            <span class="safety ribbon">safety
+                                <img class="pinkRibbon" src="img/Group 5022.svg" alt="headDecoration" /></span>
+                            and
+                            <span class="sub"></span><span class="safety">security</span> matters</span>
+                        </h1>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry text ever the 33 Alerts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="playstores d-flex justify-content-center text-center">
+                    <div class="android m-2">
+                        <a href=""><img src="img/android@2x.png" alt="android-play-image" width="163px"
+                                height="auto" /></a>
+                    </div>
+                    <div class="ios m-2">
+                        <a href=""><img src="img/ios@2x.png" alt="android-play-image" width="163px" height="auto" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row overlayBlue">
+                <div class="col-md-6 d-flex overlayFirst">
+                    <img src="img/Group 5028.svg" alt="info-1" width="69px" height="73px" />
+                    <p class="text-start ms-5">
+                        Instantly alert everyone at the school or the district
+                    </p>
+                </div>
+                <div class="col-md-6 d-flex">
+                    <img src="img/Group 5012.svg" alt="overlaySecond" width="154px" height="102px" />
+                    <p class="text-start ms-4">
+                        Every device connected to the network will display the same
+                        message.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how-it-works" id="service">
+        <div class="container">
+            <div class="content justify-content-center text-center">
+                <h2>How it Works</h2>
+                <p class="mt-4">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the call 911.
+                </p>
+            </div>
+            <hr />
+            <div class="row justify-content-center text-center functions mt-5">
+                <div class="col-md-4 mb-4">
+                    <div class="mb-4">
+                        <img src="img/create-account.svg" alt="create-icon" />
+                    </div>
+                    <h3 class="mt-2 mb-3">Create Account</h3>
+                    <p>
+                        <span class="d-block">Lorem Ipsum is simply dummy</span> text of
+                        the printing.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="mb-4">
+                        <img src="img/location.svg" alt="location-icon" />
+                    </div>
+                    <h3 class="mt-2 mb-3">Set Room & Other Location</h3>
+                    <p>
+                        <span class="d-block">Lorem Ipsum is simply dummy</span> text of
+                        the printing.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="mb-4">
+                        <img src="img/send-alert.svg" alt="alert-icon" />
+                    </div>
+                    <h3 class="mt-2 mb-3">Send Alert</h3>
+                    <p>
+                        <span class="d-block">Lorem Ipsum is simply dummy</span> text of
+                        the printing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="redMobileFeatures" id="feature">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 text-center">
+                    <img src="img/red-mobile.png" alt="red-background-image" width="480px" height="auto"
+                        class="img-fluid" />
+                </div>
+                <div class="col-lg-5">
+                    <div class="featuresContent">
+                        <h2>Features:</h2>
+                        <ul class="ps-0 list-unordered container-fluid">
+                            <li class="d-flex">
+                                <div class="ms-1">
+                                    <h3>Instantly Alert</h3>
+                                    <p class="small">
+                                        Lorem Ipsum is simply dummy text of the printing.
+                                    </p>
+                                </div>
+                                <div class="list-icon">
+                                    <img src="img/instant-alert.svg" alt="alert-icon" />
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div>
+                                    <h3>Device Connected</h3>
+                                    <p class="small">
+                                        Lorem Ipsum is simply dummy text of the printing.
+                                    </p>
+                                </div>
+                                <div class="list-icon">
+                                    <img src="img/device.svg" alt="" />
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div>
+                                    <h3>Send Alerts</h3>
+                                    <p class="small">
+                                        Lorem Ipsum is simply dummy text of the printing.Lorem
+                                        Ipsum is simply dummy text of the printing.
+                                    </p>
+                                </div>
+                                <div class="list-icon">
+                                    <img src="img/send-alert-2.svg" alt="" />
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div>
+                                    <h3>Alert</h3>
+                                    <p class="small">
+                                        Alert hundreds or thousands of users at once.
+                                    </p>
+                                </div>
+                                <div class="list-icon">
+                                    <img src="img/alert-safety.svg" alt="" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="FAQs" id="FAQ">
+        <div class="container">
+            <h2 class="text-center mb-5">Frequently Asked Questions (FAQ’s)</h2>
+            <div class="row p-4 mb-3">
+                <div class="col-md-12 d-flex">
+                    <div class="content">
+                        <h4>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry?
+                        </h4>
+                        <p class="mb-0 small">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry’s standard dummy
+                            text ever since the 1500s
+                        </p>
+                    </div>
+                    <div class="arrow-down">
+                        <img src="img/arrow-down.png" alt="down-arrow" width="24px" height="14px" />
+                    </div>
+                </div>
+            </div>
+            <div class="row p-4 mb-3">
+                <div class="col-md-12 d-flex">
+                    <div class="content">
+                        <h4>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry?
+                        </h4>
+                        <p class="mb-0 small">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry’s standard dummy
+                            text ever since the 1500s
+                        </p>
+                    </div>
+                    <div class="arrow-down">
+                        <img src="img/arrow-down.png" alt="down-arrow" width="24px" height="14px" />
+                    </div>
+                </div>
+            </div>
+            <div class="row p-4 mb-3">
+                <div class="col-md-12 d-flex">
+                    <div class="content">
+                        <h4>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry?
+                        </h4>
+                        <p class="mb-0 small">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry’s standard dummy
+                            text ever since the 1500s
+                        </p>
+                    </div>
+                    <div class="arrow-down">
+                        <img src="img/arrow-down.png" alt="down-arrow" width="24px" height="14px" />
+                    </div>
+                </div>
+            </div>
+            <div class="row p-4 mb-3">
+                <div class="col-md-12 d-flex">
+                    <div class="content">
+                        <h4>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry?
+                        </h4>
+                        <p class="mb-0 small">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry’s standard dummy
+                            text ever since the 1500s
+                        </p>
+                    </div>
+                    <div class="arrow-down">
+                        <img src="img/arrow-down.png" alt="down-arrow" width="24px" height="14px" />
+                    </div>
+                </div>
+            </div>
+            <div class="row p-4 mb-3">
+                <div class="col-md-12 d-flex">
+                    <div class="content">
+                        <h4>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry?
+                        </h4>
+                        <p class="mb-0 small">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry’s standard dummy
+                            text ever since the 1500s
+                        </p>
+                    </div>
+                    <div class="arrow-down">
+                        <img src="img/arrow-down.png" alt="down-arrow" width="24px" height="14px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="yellowOverlay">
+        <div class="container">
+            <div class="row pt-3 pb-3">
+                <div class="col-lg-7">
+                    <h2>Order Now</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry’s standard dummy text
+                        ever since the 1500s
+                    </p>
+                </div>
+                <div class="col-lg-5 text-end yellowOrderNowButton">
+                    <a href="" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footSection p-5 footer" id="contact">
+        <div class="container">
+            <div class="row footContent">
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="img/odin-last-logo@2x.png" alt="logo-image" width="140px" height="99px" />
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <h4>Connect</h4>
+                    <p>
+                        <a href=""><i class="fab fa-linkedin me-2 "></i> Linkedin</a>
+                    </p>
+                    <p>
+                        <a href=""><i class="fab fa-twitter me-2"></i> Twitter</a>
+                    </p>
+                    <p>
+                        <a href=""><i class="fab fa-instagram me-2"></i> Instagram</a>
+                    </p>
+                    <p>
+                        <a href=""><i class="fab fa-facebook-square me-2"></i> Facebook</a>
+                    </p>
+                </div>
                 <div class="col-md-5">
-                    <h1 class="red-h1">Features:</h1>
-                    <div class="box">
-                        <ul style="list-style-type: none;">
-                            <li class="list-group">
-                                <p><span class="red-spans">Instantly Alert</span> <br>
-                                <p style="font-size: 14px; width: 260px;"> Lorem Ipsum is simply dummy text of the
-                                    printing.
-                                </p> <img class="list-image mr-0" src="img/instant-alert.png" alt=""></p>
-                            </li>
-                            <li class="list-group">
-                                <p><span class="red-spans">Device Connected</span> <br>
-                                <p style="font-size: 14px; width: 260px;"> Lorem Ipsum is simply dummy text of the
-                                    printing.
-                                </p><img class="list-image mt-auto mb-auto pr-0" src="img/device.png" alt=""></p>
-                            </li>
-                            <li class="list-group">
-                                <p><span class="red-spans">Send Alerts</span> <br>
-                                <p style="font-size: 14px; width: 275px; padding-top: 0; "> Lorem Ipsum is simply dummy
-                                    text
-                                    of <br> the printing. Lorem Ipsum is simply dummy text of the printing. </p><img
-                                    class="list-image mt-auto mb-auto pr-0" src="img/send-alert-2.png"
-                                    style="transform: translate(220px,-130px);" alt=""></p>
-                            </li>
-                            <li class="list-group">
-                                <p><span class="red-spans">Alert</span> <br>
-                                <p style="font-size: 14px; width: 290px;"> Alert hundreds or thousands of users at once.
-                                </p>
-                                <img class="list-image mt-auto mb-auto pr-0" src="img/alert-green.png"
-                                    style="transform: translate(220px,-90px); " alt=""></p>
-                            </li>
-                        </ul>
+                    <div class="row justify-content-center">
+                        <div class="col-md-7 contact-info">
+                            <h4>Contact</h4>
+                            <p>hello@odin.com</p>
+                            <p>+91 - 9987877812</p>
+                        </div>
+                        <div class="col-md-5  text-center">
+                            <a href="">
+                                <img src="img/33Systems_Support_01@2x.png" alt="support-image" width="93px"
+                                    height="168.5px" />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div>
-        <h1 class="faq">Frequently Asked Questions (FAQ’s)</h1>
-    </div>
-
-    <div class="faqSection">
-        <div class="faq-items">
-            <button class="faq-btn">Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry?</button>
-            <div class="faq-para">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry’s standard dummy text ever since the 1500s</p>
-            </div>
-        </div>
-        <div class="faq-items">
-            <button class="faq-btn">Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry?</button>
-            <div class="faq-para">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry’s standard dummy text ever since the 1500s</p>
-            </div>
-        </div>
-        <div class="faq-items">
-            <button class="faq-btn">Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry?</button>
-            <div class="faq-para">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry’s standard dummy text ever since the 1500s</p>
-            </div>
-        </div>
-        <div class="faq-items">
-            <button class="faq-btn">Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry?</button>
-            <div class="faq-para">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry’s standard dummy text ever since the 1500s</p>
-            </div>
-        </div>
-        <div class="faq-items">
-            <button class="faq-btn">Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry?</button>
-            <div class="faq-para">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry’s standard dummy text ever since the 1500s</p>
-            </div>
-        </div>
-    </div>
-
-    <div style="height: 332px;">
-        <div class="footer">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-md-3 ">
-                        <img  src="img/odin-last-logo.png" alt="" style="width: 140px; height: 99px; margin-top: 80px; margin-left: 94px;">
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="unlist-1" style="height: 130px; margin-left: 103px;">
-                            <li
-                                style="font: normal normal 600 18px/22px Lato;letter-spacing: 0px;color: #FFFFFF;opacity: 1 !important;">
-                                Connect</li>
-                            <li> <a href=""> <i class="fa fa-linkedin"
-                                        style="font-size: 15px; color: #0D1965; background-color: white; border-radius: 2px; padding:2px; margin-right: 4px;"></i></a>
-                                Linkedin</li>
-                            <li><a href=""> <i class="fa fa-twitter"
-                                        style="font-size: 18px; color: white;  border-radius: 2px; padding:2px;"></i></a>
-                                Twitter</li>
-                            <li> <a href=""> <i class="fa fa-instagram"
-                                        style="font-size: 18px; color: white;  border-radius: 2px; padding:2px; margin-right: 6px;"></i></a>Instagram
-                            </li>
-                            <li> <a href=""><i class="fa fa-facebook"
-                                        style="font-size: 15px;color: #0d1965; padding-left: 3px;padding-top: 3px; background-color: white; border-radius: 2px; margin-right: 10px; height: 17px; width: 16px;"></i></a>Facebook
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="unlist-2" style="height: 130px;margin-left: 71px;">
-                            <li
-                                style="font: normal normal 600 18px/22px Lato;letter-spacing: 0px;color: #FFFFFF;opacity: 1;">
-                                Contact</li>
-                            <li>hello@odin.com</li>
-                            <li>+91 - 9987877812</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-3">
-                        <img src="img/support.png" alt="" style="width: 93px; height: 169px; margin-top: 90px;">
-                    </div>
-                </div>
-            </div>
-            <p class="foot-para">
-                All rights reserved © 2020 odin. | Privacy Policy
-            </p>
-        </div>
-        <div class="yellowBox">
-            <h3 class="order-now">Order Now</h3>
-            <p class="para-last">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                been the <br> industry’s standard dummy text ever since the 1500s</p>
-            <button class="button-order" type="button">Order Now</button>
-        </div>
-    </div>
-
-
-   
-
+        <p>All rights reserved © 2020 odin. | Privacy Policy</p>
+    </footer>
     
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+
+    <script src="https://kit.fontawesome.com/ffda2d5992.js" crossorigin="anonymous"></script>
 </body>
-
-
-
-
-
-
-
 
 </html>
